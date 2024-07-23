@@ -1,0 +1,99 @@
+/* Default styles for the extension */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9; /* Default background color */
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #themeBtn {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff; /* Default button background color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  #themeBtn:hover {
+    background-color: #0056b3; /* Default button hover color */
+  }
+  
+  #canvas {
+    border: 2px solid #555; /* Default canvas border color */
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff; /* Default canvas background color */
+    cursor: crosshair;
+  }
+  
+  #colorPicker {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  #noteArea {
+    width: 280px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #555; /* Default note area border color */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    resize: none;
+    background-color: #fff; /* Default note area background color */
+    color: #000; /* Default note area text color */
+  }
+  
+  #buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff; /* Default button background color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Default button hover color */
+  }
+  

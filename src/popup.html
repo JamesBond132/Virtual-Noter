@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Drawing Pad</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Virtual Drawing Pad</h1>
+  <button id="themeBtn">Change Theme</button>
+  <canvas id="canvas" width="280" height="200"></canvas>
+  <div id="colorPicker">
+    <div class="color-option" style="background-color: black;" data-color="#000"></div>
+    <div class="color-option" style="background-color: red;" data-color="#ff0000"></div>
+    <div class="color-option" style="background-color: green;" data-color="#00ff00"></div>
+    <div class="color-option" style="background-color: blue;" data-color="#0000ff"></div>
+    <div class="color-option" style="background-color: yellow;" data-color="#ffff00"></div>
+  </div>
+  <textarea id="noteArea" placeholder="Write your notes here..."></textarea>
+  <div id="buttons">
+    <button id="clearBtn">Clear</button>
+    <button id="downloadBtn">Download</button>
+  </div>
+  <script src="popup.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>

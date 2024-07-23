@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Drawing and Note Taker",
+  "version": "1.0",
+  "permissions": ["identity", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "oauth2": {
+    "client_id": "753532737312-qlvo5g68kuoe2gmukm19cbnk951pich9.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/drive.file"]
+  }
+}
